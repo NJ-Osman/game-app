@@ -1,0 +1,145 @@
+body {
+     margin: 0;
+    padding: 0;
+    background-color: #525174;
+}
+
+.games {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 5px 15px 15px rgba(0, 0, 0, 0.9);
+    margin: 20px;
+    border-radius: 18px;
+    transition: 0.5s ease;
+     cursor: pointer;
+     margin: 30px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.6);
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: 3px dotted black;
+}
+
+.card-title h2 {
+    justify-content: center;
+}
+
+.text-title {
+    border: 5px solid black;
+    font-size: 50px;
+}
+
+img {
+    width: 1200px;
+}
+
+.card-title {
+    margin: 25px;
+    text-align: center;
+    border-bottom: 3px dotted black;
+}
+
+.info {
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.card-Info {
+    display: flex;
+    justify-content: space-around;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.border {
+    border-left: 2px solid darkgrey;
+    border-right: 2px solid darkgrey;
+    padding: 0px 150px;
+}
+
+.value {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.value-text {
+    font-size: 13;
+    text-transform: uppercase;
+    padding-top: 25px;
+}
+
+header {
+    background-image: url('https://imageio.forbes.com/specials-images/imageserve/61d6376afb41b047d0299df8/Video-Gamer-Mouse--Keyboard--Headphones-and-Controller/1960x0.jpg?format=jpg&width=960');
+    background-size: cover;
+    height: 120vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.games-api {
+    color: white;
+    padding-top: 400px;
+    font-size: 40px;
+}
+
+#results {
+    padding: 5px;
+    height: 20px;
+}
+
+.playTime-name {
+    font-size: 20px;
+    padding: 16px 16px;
+}
+
+.search-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 25px 0;
+    padding: 20px 0 50px 0;
+    border-bottom: 3px dotted black;
+}
+
+.search-title {
+    font-size: 50px;
+    text-transform: capitalize;
+    padding: 0 0 25px 0;
+    margin: 0;
+}
+
+button {
+    background-color: #EF2D56;
+    width: 100px;
+    border: 3px solid black;
+    padding: 6px 6px;
+    font-size: 15px;
+}
+
+p {
+    font-size: 24px;
+}
+
+.playTimeList {
+    height: 100px;
+}
+
